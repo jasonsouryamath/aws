@@ -60,8 +60,8 @@ public class AmazonWeb {
   
   @BeforeClass
   public void beforeClass() {
-	  System.setProperty("webdriver.firefox.bin","/Users/jasonsouryamath/Desktop/FirefoxDeveloperEdition.app/Contents/MacOS/firefox-bin");
-	  driver = new FirefoxDriver();
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\jsouryamath\\Desktop\\chromedriver.exe");
+   driver =new ChromeDriver();
 	  driver.get("https://aws.amazon.com/");
 	  
 	  
