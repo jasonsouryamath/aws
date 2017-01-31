@@ -67,10 +67,7 @@ public class AmazonWeb {
 	  
   }
 
-  @AfterClass
-  public void afterClass() {
-	driver.quit();
-  }
+ 
 
 }
 
